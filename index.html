@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
-<!--- Code above this line will not be displayed on the browser -->
-<body>
-<p> Hello World! My name is Kelly! </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="index-body">
+    <header class="index-header">
+        <h1>Plants</h1>
+        <h2>A basic guide to plant care, plant types, and plant identification.</h2>
+    </header>
+    <main>
+        <section id="flowers" class="plant-category">
+            <img src="https://meris.com/staging/rossplantsandflowers/wp-content/uploads/sites/55/2023/06/flower-1.png" alt="Flowers">
+            <div class="caption">Flowers: Annual and Perennial</div>
+			<p>This page will teach you about different types of flowers, how to take care of them, and how to identify them.</p>
+			<p style="font-size:12px"><em>Image: "Ross Plants and Flowers" from www.meris.com</em></p>
+        </section>
+        <section id="succulents" class="plant-category">
+            <img src="https://www.kukkaflowers.com/cdn/shop/products/echeveria-fleur-blanc_1024x_4f625707-c68c-439d-8f76-fb8b6052a888.png?v=1581655316" alt="Succulents">
+            <div class="caption">Succulents</div>
+			<p>This page will teach you about different types of succulents (including cacti), how to take care of them, and how to identify them.</p>
+			<p style="font-size:12px"><em>Image: "Echeveria Fleur Blanc" from www.kukuflowers.com</em></p>
+        </section>
+        <section id="herbs" class="plant-category">
+            <img src="https://www.theproducemoms.com/wp-content/uploads/2022/01/mint.png" alt="Herbs">
+            <div class="caption">Herbs</div>
+			<p>This page will teach you about different types of herbs and how to have your own herb garden at home.</p>
+			<p style="font-size:12px"><em>Image: "Mint" from www.producemoms.com</em></p>
+        </section>
+        <section id="unconventional" class="plant-category">
+            <img src="https://piante.ca/cdn/shop/articles/venus-fly-trap-piante-plants_1080x.png?v=1641264572" alt="Unconventional Plants">
+            <div class="caption">Unconventional</div>
+			<p>This page will teach you about less popular plants, such as carnivorous plants and poisonous ones</p>
+			<p style="font-size:12px"><em>Image: "Venus Fly Trap" from www.piante.ca</em></p>
+        </section>
+    </main>
+    <footer class="index-footer">
+    <nav class="index-navbar">
+        <ul>
+            <li><a href="flowers/flowers.html">Flowers</a></li>
+            <li><a href="succulents/succulents.html">Succulents</a></li>
+            <li><a href="herbs/herbs.html">Herbs</a></li>
+            <li><a href="unconventional/unconventional.html">Unconventional</a></li>
+        </ul>
+    </nav>
+</footer>
 </body>
 </html>
